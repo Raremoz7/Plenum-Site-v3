@@ -28,6 +28,18 @@ const faqs: FAQItem[] = [
         question: 'Que integrações de marketing estão disponíveis?',
         answer: 'O Plenum integra com Facebook Ads via CAPI para rastreamento de conversões, Google Ads para atribuição de origem, e Google Calendar para sincronização de agenda. Também possui módulo de links rastreáveis com parâmetros UTM e comparação de desempenho entre canais.',
     },
+    {
+        question: 'Tem contrato de fidelidade?',
+        answer: 'Não há fidelidade mínima obrigatória. O contrato é mensal e pode ser encerrado a qualquer momento. Para casos específicos de implementação personalizada, condições diferenciadas podem ser acordadas diretamente com a equipe.',
+    },
+    {
+        question: 'Como funciona o suporte?',
+        answer: 'O suporte está incluído no plano e é feito diretamente pela equipe do Plenum via WhatsApp. Não há terceirização do atendimento. O horário de suporte técnico é definido no momento da contratação.',
+    },
+    {
+        question: 'Posso ativar só alguns módulos?',
+        answer: 'O plano do Plenum inclui todos os módulos dos 5 grupos funcionais. Não é necessário contratar módulos separadamente — tudo já está disponível desde o primeiro acesso, incluindo Flow Builder, Agentes de IA e todas as integrações.',
+    },
 ];
 
 function FAQItem({ item, index }: { item: FAQItem; index: number }) {
