@@ -65,7 +65,7 @@ export function HeroSection() {
                     }}
                 >
                     <img
-                        src="/hero-mockup.png"
+                        src={`${import.meta.env.BASE_URL}hero-mockup.png`}
                         alt="Dashboard do Plenum CRM"
                         className="w-full h-auto block"
                         draggable={false}
